@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Facebook Ads",
+    "img": "https://nzmedias.com/wp-content/uploads/2024/02/Facebook-Ads-logo-1-768x768.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Google Ads",
+    "img": "https://nzmedias.com/wp-content/uploads/2024/02/Untitled-design-12-768x768.png"
+  },
+  {
+    "id": 3,
+    "name": "Video Editing",
+    "img": "https://nzmedias.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-10-at-22.29.26_79e75f1b.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Graphics Design",
+    "img": "https://nzmedias.com/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-10-at-22.29.27_1b08ec6f.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Youtube SEO",
+    "img": "https://nzmedias.com/wp-content/uploads/2024/02/Untitled-design-11-768x768.png"
+  },
+  {
+    "id": 6,
+    "name": "Instagram Ads",
+    "img": "https://nzmedias.com/wp-content/uploads/2024/02/Untitled-design-13-768x768.png"
+  }
+]

@@ -20,7 +20,7 @@ const BannerBody = () => {
 
       <div className="text-center p-10">
         <Carousel></Carousel>
-        <button className="bg-green-600 font-bold text-white  text-center p-3 border-0 rounded-full mt-10 md:absolute  md:bottom-0 left-1/2">
+        <button className="bg-green-600 font-bold text-white  text-center p-3 border-0 rounded-full mt-10 md:absolute  md:bottom-0 md:left-1/2">
           Request a free quote
         </button>
       </div>
