@@ -28,7 +28,7 @@ const Navbar = () => {
               data-aos="flip-down"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
-              className="bg-white border w-full mb-2"
+              className="bg-white border w-full mb-2 cursor-pointer"
             >
               Home
             </button>
@@ -38,7 +38,7 @@ const Navbar = () => {
               data-aos="flip-down"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
-              className="bg-white border w-full mb-2"
+              className="bg-white border w-full mb-2 cursor-pointer"
             >
               About
             </button>
@@ -48,7 +48,7 @@ const Navbar = () => {
               data-aos="flip-down"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
-              className="bg-white border w-full mb-2"
+              className="bg-white border w-full mb-2 cursor-pointer"
             >
               Contact Us
             </button>
@@ -58,7 +58,7 @@ const Navbar = () => {
               data-aos="flip-down"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
-              className="bg-white border w-full mb-2"
+              className="bg-white border w-full mb-2 cursor-pointer"
             >
               Reviews
             </button>
@@ -68,7 +68,7 @@ const Navbar = () => {
               data-aos="flip-down"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
-              className="bg-white border w-full mb-2"
+              className="bg-white border w-full mb-2 cursor-pointer"
             >
               Recent Projects
             </button>
@@ -77,41 +77,43 @@ const Navbar = () => {
             data-aos="flip-down"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="5000"
-            className="p-2 bg-green-600 text-white border rounded-full"
+            className="p-2 bg-green-600 text-white border rounded-full cursor-pointer"
           >
             Get Quote
           </button>
         </div>
       </details>
-      <div className="hidden lg:flex">
+      <div className="hidden lg:flex items-center">
         <NavLink to="/">
-          <button className="text-xl font-semibold mr-4 border-0 bg-transparent">
+          <button className="text-xl font-semibold mr-4 border-0 bg-transparent cursor-pointer">
             Home
           </button>
         </NavLink>
         <NavLink to="/about">
-          <button className="text-xl font-semibold mr-4 border-0 bg-transparent">
+          <button className="text-xl font-semibold mr-4 border-0 bg-transparent cursor-pointer">
             About
           </button>
         </NavLink>
         <NavLink to="/contact">
-          <button className="text-xl font-semibold mr-4 border-0 bg-transparent">
+          <button className="text-xl font-semibold mr-4 border-0 bg-transparent cursor-pointer">
             Contact Us
           </button>
         </NavLink>
         <NavLink to="/reviews">
-          <button className="text-xl font-semibold mr-4 border-0 bg-transparent">
+          <button className="text-xl font-semibold mr-4 border-0 bg-transparent cursor-pointer">
             Reviews
           </button>
         </NavLink>
         <NavLink to="/recent-projects">
-          <button className="text-xl font-semibold mr-4 border-0 bg-transparent">
+          <button className="text-xl font-semibold mr-4 border-0 bg-transparent cursor-pointer">
             Recent Projects
           </button>
         </NavLink>
-        <button className="p-2 bg-green-600 text-xl font-semibold  text-white border-0 rounded-full">
-          Get Quote
-        </button>
+        <NavLink to="/quote">
+          <button className="p-2 bg-green-600 text-xl font-semibold  text-white border-0 cursor-pointer rounded-full">
+            Get Quote
+          </button>
+        </NavLink>
       </div>
     </div>
   );

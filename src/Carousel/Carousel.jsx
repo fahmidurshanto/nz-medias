@@ -44,7 +44,10 @@ const Carousel = () => {
         </div>
       </div>
       <div id="slide4" className="carousel-item relative w-full">
-        <img src="" className="w-full" />
+        <img
+          src="https://nzmedias.com/wp-content/uploads/2024/02/Untitled-design-12-768x768.png"
+          className="w-full"
+        />
         <div className="absolute flex  justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide3" className="btn btn-circle">
             ❮
