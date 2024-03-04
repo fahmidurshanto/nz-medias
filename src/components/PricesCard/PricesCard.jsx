@@ -17,7 +17,7 @@ import { AiOutlineWindows } from "react-icons/ai";
 const PricesCard = () => {
   return (
     <div
-      className="grid grid-cols-3 gap-6 bg-[#C5C0EB] p-20"
+      className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 bg-[#C5C0EB] p-20"
       data-aos="zoom-in"
     >
       {/* Personal Plans */}

@@ -13,7 +13,7 @@ const ServicesCards = () => {
       <h2 className="text-5xl font-semibold pt-6">
         Our Services: {cards.length}
       </h2>
-      <div className="grid md:grid-cols-3">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3">
         {cards.map((card) => (
           <ServiceCard key={card.id} card={card}></ServiceCard>
         ))}
