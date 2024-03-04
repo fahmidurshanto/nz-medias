@@ -16,9 +16,12 @@ import { AiOutlineWindows } from "react-icons/ai";
 
 const PricesCard = () => {
   return (
-    <div className="grid grid-cols-3 gap-6 bg-[#C5C0EB] p-20">
+    <div
+      className="grid grid-cols-3 gap-6 bg-[#C5C0EB] p-20"
+      data-aos="zoom-in"
+    >
       {/* Personal Plans */}
-      <div className="p-10 bg-white">
+      <div className="p-10 bg-white" data-aos="flip-left">
         <h3 className="text-3xl font-semibold bg-slate-600 text-white p-5">
           Personal Plan
         </h3>
@@ -48,11 +51,11 @@ const PricesCard = () => {
           </p>
         </div>
         <button className="bg-green-600 text-white p-3 w-1/2 mx-auto border-0 rounded-3xl my-7">
-          Get Started >
+          Get Started {">"}
         </button>
       </div>
       {/* Populer Plan */}
-      <div className="p-10 bg-white">
+      <div className="p-10 bg-white" data-aos="flip-left">
         <h3 className="text-3xl font-semibold bg-slate-600 text-white p-5">
           Personal Plan
         </h3>
@@ -91,11 +94,11 @@ const PricesCard = () => {
           </p>
         </div>
         <button className="bg-green-600 text-white p-3 w-1/2 mx-auto border-0 rounded-3xl my-7">
-          Get Started >
+          Get Started {">"}
         </button>
       </div>
       {/* Business Plan */}
-      <div className="p-10 bg-white">
+      <div className="p-10 bg-white" data-aos="flip-right">
         <h3 className="text-3xl font-semibold bg-slate-600 text-white p-5">
           Business Plan
         </h3>
@@ -140,7 +143,7 @@ const PricesCard = () => {
           </p>
         </div>
         <button className="bg-green-600 text-white p-3 w-1/2 mx-auto border-0 rounded-3xl my-7">
-          Get Started >
+          Get Started {">"}
         </button>
       </div>
     </div>
